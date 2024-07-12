@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,
+			    initial-scale=1.0" />
+		<meta http-equiv="Content-Security-Policy"
+		      content="script-src 'self' 'unsafe-inline';"/>
+		<title>Celestial Compass</title>
+	</head>
+	<body>
+		<h1>Celestial Compass</h1>
+			<p>Welcome to Celestial Compass! This application will assist in determining your precise location from a simple picture of the sky. If you are unfamiliar with the usage of this app, please click this link for instructions.</p>
+		<div>
+			<p>Enter a photograph of a star field; drag and drop</p>
+			<img src="assets/star-field.webp" alt="Image of star field." width="100" height="120">
+			<p>Enter time (UTC / Zulu) picture was taken (HH:MM:SS): <input type="text"></p>
+		</div>
+		<div>
+			<button type="button" onclick="alert('Your location is:\n\nN 31 37.04 W 117 18.12')">Process Starfield</button>
+		</div>
+		<div>
+			<p>Plot location on map</p>
+			<button type="button" onclick="alert('A map will show up here with a location designating a user\'s precise location')">Plot location</button>
+		</div>
+		<div>
+			<p>Enter coordinates directly: <br>
+			N: <input type="text"> <br>
+			W: <input type="text"> <br>
+			<button type="button" onclick="alert('Coordinates used to initialize system.\nThank you.')">Submit Coordinates</button>
+		</div>
+	</body>
+</html>
