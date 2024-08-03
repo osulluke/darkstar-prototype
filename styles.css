@@ -1,0 +1,22 @@
+h1 {
+	color: blue;
+	font-size:70px;
+	font-style:italic;
+	text-align:center;
+}
+
+#instructions {
+	border: 5px solid black;
+	text-align: center;
+	font-style: italic;
+	font-size: 24px;
+	padding: 5px;
+}
+
+#interaction {
+	border: 2px solid black;
+	text-align:left;
+	font-size 24px;
+	padding:5px;
+	margin:10px;
+}
